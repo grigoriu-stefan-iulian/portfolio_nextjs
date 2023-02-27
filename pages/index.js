@@ -1,9 +1,21 @@
 import React from "react";
 
+import { Header } from "./components";
+import { Avatar } from "./components";
+import { Footer } from "./components";
+import { Projects } from "./components";
+import { Technologies } from "./components";
+import { Timeline } from "./components";
+
 const App = () => (
-  <div>
-    <h2>Hello World</h2>
-  </div>
+  <>
+    <Header />
+    <Avatar />
+    <Projects />
+    <Technologies />
+    <Timeline />
+    <Footer />
+  </>
 );
 
 export default App;
